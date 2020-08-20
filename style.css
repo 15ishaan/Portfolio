@@ -1,0 +1,121 @@
+*{
+	font-family: century gothic;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 20px;
+	color: white;
+	background: url('images/background.jpg') no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+ul{
+	position: absolute;
+	top: 3%;
+	left: 40%;
+	list-style: none;
+	margin-top: 10px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: #65F0D5;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 17px;
+	border: 1px solid transparent; 
+	transition: 0.6s ease;
+	font-size: 80%;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+ul li a:hover{
+	background-color: #2E6A5E ;
+}
+.home{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	width: 1000px;
+}
+.home:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.home .image{
+	width: 150px;
+	flex: 0 0 150px;
+}
+.home .image img{
+	max-width: 100%;
+}
+.home .contents{
+	padding-left: 20px;
+}
+.home .contents p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+	font-size: 100%;
+}
+.achievements{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	width: 1000px;
+}
+.achievements:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.achievements .contents{
+	padding-left: 20px;
+}
+.achievements .contents p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+	font-size: 100%;
+}
+.skills{
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	width: 1000px;
+}
+.skills:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.skills .contents{
+	padding-left: 20px;
+}
+.skills .contents p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+	font-size: 100%;
+}
+
+
