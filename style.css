@@ -6,10 +6,9 @@
 body{
 	font-size: 20px;
 	color: white;
-	background: url('images/background.jpg') no-repeat center;
-	background-size: cover;
+	background: linear-gradient(to left, #8942a8, #ba382f);
+	width: 100%;
 	height: 100vh;
-	background-attachment: fixed;
 }
 ul{
 	position: absolute;
@@ -44,7 +43,6 @@ ul li a:hover{
 	box-sizing: border-box;
 	background: black;
 	border-radius: 4px;
-	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	display: flex;
 	width: 1000px;
 }
@@ -67,7 +65,7 @@ ul li a:hover{
 	text-align: justify;
 	font-size: 100%;
 	letter-spacing: 2px;
-	word-spacing: 3px;
+	word-spacing: 5px;
 }
 .achievments{
 	position: absolute;
@@ -78,7 +76,6 @@ ul li a:hover{
 	box-sizing: border-box;
 	background: black;
 	border-radius: 4px;
-	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	display: flex;
 	width: 1000px;
 }
@@ -96,6 +93,39 @@ ul li a:hover{
 	padding-left: 20px;
 }
 .achievments .contents p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+	font-size: 100%;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.skills{
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	border-radius: 4px;
+	display: flex;
+	width: 1000px;
+}
+.skills:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.skills .image{
+	width: 150px;
+	flex: 0 0 150px;
+}
+.skills .image img{
+	max-width: 100%;
+}
+.skills .contents{
+	padding-left: 20px;
+}
+.skills .contents p{
 	margin: 0;
 	padding: 10px 0 0;
 	text-align: justify;
